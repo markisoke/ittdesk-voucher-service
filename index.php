@@ -24,9 +24,11 @@ require_once ('uvs_config.php');
    <body>
       <section id="works"></section>
       <div class="container">
-         <div class="row centered mt mb">
-            <span class="shutdown_btn"><a href="shutdown.php"><img src="assets/img/shutdown.png" /></a></span>
-            <p><a href="index_custom.php"><img src="assets/img/logo.png" /></a></p>
+         <div class="row left mt mb">
+            <span class="logo_itt">><img src="assets/img/logoitt.png" /></a></span>
+            <p><img src="assets/img/logo.png" /></a></p>
+			 </div>
+			 <div class="row centered mt mb">
 						<h4><?php echo $uvs_subtitle ?></h4>
             <form id="buttons">
             <div class="col-lg-4 col-md-4 col-sm-4 gallery1st print1day1device">
@@ -55,8 +57,8 @@ require_once ('uvs_config.php');
                </button>			
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 gallery2nd print1month2devices">
-               <button onCLick="$.ajax({url: 'codes/31-2.php', type: 'GET', success: function(data){$('.print1month2devices').html(data);}});" type="submit" name="1month2devices" id="1month2devices">
-               <div id="oben"><img src="assets/img/printing.png" id="1month2devicesimg" width="208px" class="img-responsive" /></div><div id="unten"><img src="assets/img/31-2.png" class="img-responsive" /></div>
+               <button onCLick="window.location.href = 'index_custom.php';" name="1month2devices" id="1month2devices">
+               <img src="assets/img/31-2.png" class="img-responsive" />
                </button>			
 						</div>
             </form>
