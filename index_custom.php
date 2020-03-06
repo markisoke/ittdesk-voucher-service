@@ -25,10 +25,12 @@ require_once ('uvs_config.php');
    <body>
       <section id="works"></section>
       <div class="container">
-         <div class="row centered mt mb">
-            <span class="shutdown_btn"><a href="shutdown.php"><img src="assets/img/shutdown.png" /></a></span>
-            <p><a href="index.php"><img src="assets/img/logo.png" /></a></p>
-            <h4><?php echo $uvs_subtitle ?></h4>
+         <div class="row left mt mb">
+            <span class="logo_itt"><img src="assets/img/logoitt.png" /></a></span>
+            <p><img src="assets/img/logo.png" /></a></p>
+			</div>
+			<div class="row centered mt mb">
+            <h4><a href="index.php" style="color:white">Druk hier om terug te gaan</a></h4>
             <br/>
             <form id="buttons">
                <div class="col-lg-8 col-md-8 col-sm-8 gallery1st print1weekfree">
@@ -37,8 +39,8 @@ require_once ('uvs_config.php');
                         <label>Bruikbaarheid</label>
                         <select class="form-control" name="quota" id="quota">
                            <option value="1">Eenmaal (1 apparaat)</option>
-                           <option value="2">Meermaal (2 apparaten)</option>
-                           <option value="0">Meermaal (ongelimiteerd)</option>
+                           <option value="5">Meermaals (5 apparaten)</option>
+                           <option value="0">Meermaals (ongelimiteerd)</option>
                         </select>
                      </div>
                      <div class="col-xs-4">
@@ -49,7 +51,7 @@ require_once ('uvs_config.php');
                            <option value="720">12 uur</option>
                            <option value="1440">24 uur</option>
                            <option value="2880">2 dagen</option>
-                           <option value="10080">7 dagen</option>
+                           <option value="10080">1 week</option>
                            <option value="44640">1 maand</option>
                         </select>
                      </div>
@@ -76,8 +78,6 @@ require_once ('uvs_config.php');
                            <option value="2000">2 Mbps</option>
                            <option value="5000">5 Mbps</option>
                            <option value="10000">10 Mbps</option>
-                           <option value="15000">15 Mbps</option>
-                           <option value="20000">20 Mbps</option>
                         </select>
                      </div>
                      <div class="col-xs-6">
@@ -87,9 +87,6 @@ require_once ('uvs_config.php');
                            <option value="1000">1 Mbps</option>
                            <option value="2000">2 Mbps</option>
                            <option value="5000">5 Mbps</option>
-                           <option value="10000">10 Mbps</option>
-                           <option value="15000">15 Mbps</option>
-                           <option value="20000">20 Mbps</option>
                         </select>
                      </div>
                   </div>
@@ -97,12 +94,12 @@ require_once ('uvs_config.php');
                   <div class="row">
                      <div class="col-xs-12">
                      <label>Notitie</label>
-                        <input type="text" class="form-control" placeholder="Typ een notitie" name="note" id="note">
+                        <input type="text" class="form-control" placeholder="Typ eventueel een notitie" name="note" id="note">
                      </div>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 gallery1st print1dayfree" style="margin-top:35px;">
-                  <button onCLick="senddata();" type="submit" name="1dayfree" id="1dayfree">
+                  <button onCLick="senddata(); window.location.href = 'https://w3docs.com" type="submit" name="1dayfree" id="1dayfree">
                      <div id="oben"><img src="assets/img/printing.png" id="1dayfreeimg" width="208px" class="img-responsive" /></div>
                      <div id="unten"><img src="assets/img/print_now.png" class="img-responsive" /></div>
                   </button>
