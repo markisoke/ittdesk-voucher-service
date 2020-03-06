@@ -33,7 +33,7 @@ $uvs_vlan           =   '10'; // The VLAN ID of your guest network. (UniFi Contr
 
 /* 1 dag 1 gebruiker */
 $uvs_1d1u_site_id    =   'default'; // The site where you want to create the voucher
-$uvs_1d1u_note       =   '1 dag - 1 gebruiker'; // Note on the voucher
+$uvs_1d1u_note       =   ''; // Note on the voucher
 $uvs_1d1u_expiration =   1440; // Expiration Time (1 Day = 1440)
 $uvs_1d1u_quota      =   1; // 1 = One time, 2 = Multi use
 $uvs_1d1u_up         =   5000; // Bandwidth Limit Upload in kbits
@@ -43,7 +43,7 @@ $uvs_1d1u_count      =   1; // How many vouchers - WARNING: Currently we can sen
 
 /* 1 dag 2 gebruikers */
 $uvs_1d2u_site_id    =   'default'; // The site where you want to create the voucher
-$uvs_1d2u_note       =   '1 dag - 2 gebruikers'; // Note on the voucher
+$uvs_1d2u_note       =   ''; // Note on the voucher
 $uvs_1d2u_expiration =   1440; // Expiration Time (1 Day = 1440)
 $uvs_1d2u_quota      =   2; // 1 = One time, 2 = Multi use
 $uvs_1d2u_up         =   5000; // Bandwidth Limit Upload in kbits
@@ -53,7 +53,7 @@ $uvs_1d2u_count      =   1; // How many vouchers - WARNING: Currently we can sen
 
 /* 7 dagen 1 gebruiker */
 $uvs_7d1u_site_id    =   'default'; // The site where you want to create the voucher
-$uvs_7d1u_note       =   '7 dagen - 1 gebruiker'; // Note on the voucher
+$uvs_7d1u_note       =   ''; // Note on the voucher
 $uvs_7d1u_expiration =   10080; // Expiration Time (1 Week = 10080)
 $uvs_7d1u_quota      =   1; // 1 = One time, 2 = Multi use
 $uvs_7d1u_up         =   5000; // Bandwidth Limit Upload in kbits
@@ -63,7 +63,7 @@ $uvs_7d1u_count      =   1; // How many vouchers - WARNING: Currently we can sen
 
 /* 7 dagen 2 gebruikers */
 $uvs_7d2u_site_id    =   'default'; // The site where you want to create the voucher
-$uvs_7d2u_note       =   '7 dagen - 2 gebruikers'; // Note on the voucher
+$uvs_7d2u_note       =   ''; // Note on the voucher
 $uvs_7d2u_expiration =   10080; // Expiration Time (1 Week = 10080)
 $uvs_7d2u_quota      =   2; // 1 = One time, 2 = Multi use
 $uvs_7d2u_up         =   5000; // Bandwidth Limit Upload in kbits
@@ -73,7 +73,7 @@ $uvs_7d2u_count      =   1; // How many vouchers - WARNING: Currently we can sen
 
 /* 31 dagen 1 gebruiker */
 $uvs_31d1u_site_id    =   'default'; // The site where you want to create the voucher
-$uvs_31d1u_note       =   '31 dagen - 1 gebruiker'; // Note on the voucher
+$uvs_31d1u_note       =   ''; // Note on the voucher
 $uvs_31d1u_expiration =   44640; // Expiration Time (1 Month = 44640)
 $uvs_31d1u_quota      =   1; // 1 = One time, 2 = Multi use
 $uvs_31d1u_up         =   10000; // Bandwidth Limit Upload in kbits
@@ -83,7 +83,7 @@ $uvs_31d1u_count      =   1; // How many vouchers - WARNING: Currently we can se
 
 /* 31 day fastpass */
 $uvs_31d2u_site_id    =   'default'; // The site where you want to create the voucher
-$uvs_31d2u_note       =   '31 dagen - 2 gebruikers'; // Note on the voucher
+$uvs_31d2u_note       =   ''; // Note on the voucher
 $uvs_31d2u_expiration =   44640; // Expiration Time (1 Month = 44640)
 $uvs_31d2u_quota      =   2; // 1 = One time, 2 = Multi use
 $uvs_31d2u_up         =   4000; // Bandwidth Limit Upload in kbits
