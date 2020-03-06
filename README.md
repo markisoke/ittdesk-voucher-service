@@ -276,6 +276,9 @@ sudo nano /home/pi/.config/lxsession/LXDE/autostart
 And add
 ```
 @xset -dpms
+@xset s off
+@xset -dpms
+@xset s noblank
 @unclutter
 @chromium-browser --kiosk http://localhost/unifi-voucher-service
 ```
