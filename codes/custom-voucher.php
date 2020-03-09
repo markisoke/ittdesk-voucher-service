@@ -85,7 +85,7 @@ $t4 = $uvs_expiration ." " . (($vouchers[0]->duration) / 60) . " " . $uvs_hours;
 $t5 = $vouchers[0]->note;
 $t6 = $uvs_quota ." ". $vouchers[0]->quota . " " . $uvs_usages;
 $t7 = $uvs_wifissid . " " . $wlan_ssid;
-$t8 = (date("d-m-Y", $vouchers[0]->create_time) . " at " . date("H:i", $vouchers[0]->create_time));
+$t8 = (date("d-m-Y", $vouchers[0]->create_time) . " om " . date("H:i", $vouchers[0]->create_time));
 
 // Create the image to print
 create_printimage($t1, $t2, $t3, $t4, $t5, $t6, $t7, $t8);
