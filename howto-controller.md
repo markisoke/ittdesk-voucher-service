@@ -7,34 +7,30 @@ I get a lot of questions how people have to install the Unifi Controller softwar
 ```
 echo 'deb http://www.ubnt.com/downloads/unifi/debian stable ubiquiti' | sudo tee -a /etc/apt/sources.list.d/ubnt.list > /dev/null
 ```
-#### 2. The new stretch image need dirmgr to add our validation key
-```
-sudo apt-get install dirmngr
-```
-#### 3. Time to get the validation done
+#### 2. Time to get the validation done
 ```
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv C0A52C50
 ```
-#### 4. Update our repository so the raspberry recognizes the new source
+#### 3. Update our repository so the raspberry recognizes the new source
 ```
 sudo apt-get update
 ```
-#### 5. Now we can simple install our UniFi Controller with one command
+#### 4. Now we can simple install our UniFi Controller with one command
 ```
 sudo apt-get install unifi
 ```
-#### 6. Not nice, but we need openjdk 8 for the controller
+#### 5. Not nice, but we need openjdk 8 for the controller
 ```
 sudo apt-get install install openjdk-8-jre-headless
 ```
-#### 7. Get rid of the old mongodb and stopped it
+#### 6. Get rid of the old mongodb and stopped it
 ```
 sudo systemctl stop mongodb
 ```
 ```
 sudo systemctl disable mongodb
 ```
-#### 8. Finally we reboot our raspberry as always
+#### 7. Finally we reboot our raspberry as always
 ```
 sudo reboot
 ```
