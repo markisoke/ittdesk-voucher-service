@@ -53,9 +53,6 @@ sudo apt-get install xinit
 sudo apt-get install lxde-core lxterminal lxappearance
 ```
 ```
-sudo apt-get install lightdm
-```
-```
 sudo reboot
 ```
 **Optional:** If you like to work over a VNC server like RealVNC.
