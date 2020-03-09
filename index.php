@@ -25,7 +25,7 @@ require_once ('uvs_config.php');
       <section id="works"></section>
       <div class="container">
          <div class="row left mt mb">
-            <span class="logo_itt">><img src="assets/img/logoitt.png" /></a></span>
+            <span class="logo_itt"><img src="assets/img/logoitt.png" /></a></span>
             <p><img src="assets/img/logo.png" /></a></p>
 			 </div>
 			 <div class="row centered mt mb">
