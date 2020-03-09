@@ -21,7 +21,7 @@ sudo apt-get install unifi
 ```
 #### 5. Not nice, but we need openjdk 8 for the controller
 ```
-sudo apt-get install install openjdk-8-jre-headless
+sudo apt-get install openjdk-8-jre-headless
 ```
 #### 6. Get rid of the old mongodb and stopped it
 ```
