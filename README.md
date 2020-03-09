@@ -55,11 +55,8 @@ sudo apt-get install lxde-core lxterminal lxappearance
 ```
 sudo reboot
 ```
-**Optional:** If you like to work over a VNC server like RealVNC.
-```
-sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
-```
-Remember to enable the VNC Server over ```sudo raspi-config``` and reboot. (5 Interfacing Options - P3 VNC - Yes)
+
+Disable screensaver, Start icon left bottom > Preferences > Screensaver > Mode: Disable Screen Saver
 
 ## 3. We also need a LAMP Server - Apache, PHP7 and MariaDB
 
