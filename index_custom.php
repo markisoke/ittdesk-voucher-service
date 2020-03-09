@@ -36,11 +36,19 @@ require_once ('uvs_config.php');
                <div class="col-lg-8 col-md-8 col-sm-8 gallery1st print1weekfree">
                   <div class="row">
                      <div class="col-xs-4">
-                        <label>Bruikbaarheid</label>
+                        <label>Apparaten</label>
                         <select class="form-control" name="quota" id="quota">
-                           <option value="1">Eenmaal (1 apparaat)</option>
-                           <option value="5">Meermaals (5 apparaten)</option>
-                           <option value="0">Meermaals (ongelimiteerd)</option>
+                           <option value="0">onbeperkt</option>
+                           <option value="1">1</option>
+                           <option value="2">2</option>
+                           <option value="3">3</option>
+                           <option value="4">4</option>
+                           <option value="5">5</option>
+                           <option value="6">6</option>
+                           <option value="7">7</option>
+                           <option value="8">8</option>
+                           <option value="9">9</option>
+                           <option value="10">10</option>
                         </select>
                      </div>
                      <div class="col-xs-4">
