@@ -21,7 +21,7 @@ $uvs_upload         =   ''; // Upload Bandwidth
 $uvs_download       =   ''; // Download Bandwidth
 $uvs_uprate         =   'Kbps';
 $uvs_downrate       =   'Kbps';
-$uvs_wifissid       =   'SSID:';
+$uvs_wifissid       =   'SSID: De Rimboe';
 
 /* Optional changes */
 $uvs_folder         =   'unifi-voucher-service'; // If you want to rename your folder
