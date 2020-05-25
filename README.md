@@ -203,7 +203,7 @@ sudo chmod +x /etc/rc.local
 cd /var/www/html/
 ```
 ```
-sudo git clone -b rimboe --single-branch https://github.com/markisoke/unifi-voucher-service.git
+sudo git clone -b rimboe --single-branch https://github.com/markisoke/ittdesk-voucher-service.git
 ```
 I made two touchscreen pages you can use - Pointing your browser to version 1 or version 2 to see the difference.
 - Version 1: predefined vouchers
