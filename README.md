@@ -208,15 +208,15 @@ sudo git clone -b rimboe --single-branch https://github.com/markisoke/ittdesk-vo
 I made two touchscreen pages you can use - Pointing your browser to version 1 or version 2 to see the difference.
 - Version 1: predefined vouchers
 ```
-http://localhost/unifi-voucher-service/index.php
+http://localhost/ittdesk-voucher-service/index.php
 ```
 - Version 2: custom vouchers
 ```
-http://localhost/unifi-voucher-service/index_custom.php
+http://localhost/ittdesk-voucher-service/index_custom.php
 ```
 To change your personal voucher settings I did a uvs_config.php file and described everything. 
 ```
-sudo nano /var/www/html/unifi-voucher-service/uvs_config.php
+sudo nano /var/www/html/ittdesk-voucher-service/uvs_config.php
 ```
 
 ## 7. Of course we need access to Ubiquiti's UniFi Controller API
@@ -230,10 +230,10 @@ sudo git clone https://github.com/Art-of-WiFi/UniFi-API-client.git
 ```
 #### Now we copy our needed config to our own folder and edit all needed information
 ```
-sudo cp /usr/src/UniFi-API-client/examples/site_provisioning_example/config.template.php /var/www/html/unifi-voucher-service/config.php
+sudo cp /usr/src/UniFi-API-client/examples/site_provisioning_example/config.template.php /var/www/html/ittdesk-voucher-service/config.php
 ```
 ```
-sudo nano /var/www/html/unifi-voucher-service/config.php
+sudo nano /var/www/html/ittdesk-voucher-service/config.php
 ```
 Fill in your UniFi Controller "Username", Password", "URL" and "Version". Debug mode leave it on false.
 
@@ -245,7 +245,7 @@ It is important that we are able to execute "php to shell" so it is working betw
 sudo chown pi -R /var/www/html && sudo chgrp pi -R /var/www/html
 ```
 ```
-sudo chmod 777 -R /var/www/html/unifi-voucher-service/codeimage
+sudo chmod 777 -R /var/www/html/ittdesk-voucher-service/codeimage
 ```
 #### Needed to execute sudo commands out of a php file
 ```
@@ -271,7 +271,7 @@ And add
 ```
 @xset -dpms
 @unclutter
-@chromium-browser --kiosk --app=http://localhost/unifi-voucher-service
+@chromium-browser --kiosk --app=http://localhost/ittdesk-voucher-service
 ```
 #### To automatically login
 ```
