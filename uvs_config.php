@@ -28,11 +28,11 @@ $uvs_folder         =   'ittdesk-voucher-service'; // If you want to rename your
 $uvs_printer        =   'QL-700'; // For more information about supported printers visit: https://pypi.org/project/brother_ql/
 $uvs_labelsize      =   '62x29'; // For more information about supported labels visit: https://pypi.org/project/brother_ql/
 $uvs_usbid          =   '04f9:2042'; // Remember your printer ID. To identify your printer at your usb-port type lsusb, as mention in step 5.
-$uvs_vlan           =   '10'; // The VLAN ID of your guest network. (UniFi Controller - Settings - Wireless Networks)
+$uvs_vlan           =   ''; // The VLAN ID of your guest network. (UniFi Controller - Settings - Wireless Networks)
 
 
 /* 1 dag 1 gebruiker */
-$uvs_1d1u_site_id    =   'default'; // The site where you want to create the voucher
+$uvs_1d1u_site_id    =   'ddl21h5j'; // The site where you want to create the voucher
 $uvs_1d1u_note       =   ''; // Note on the voucher
 $uvs_1d1u_expiration =   1440; // Expiration Time (1 Day = 1440)
 $uvs_1d1u_quota      =   1; // 1 = One time, 2 = Multi use
@@ -42,7 +42,7 @@ $uvs_1d1u_limit      =   null; // Byte Quota per use in MB (null=unlimited)
 $uvs_1d1u_count      =   1; // How many vouchers - WARNING: Currently we can send just 1 voucher to the printer, so keep it for now.
 
 /* 1 dag 5 gebruikers */
-$uvs_1d2u_site_id    =   'default'; // The site where you want to create the voucher
+$uvs_1d2u_site_id    =   'ddl21h5j'; // The site where you want to create the voucher
 $uvs_1d2u_note       =   ''; // Note on the voucher
 $uvs_1d2u_expiration =   1440; // Expiration Time (1 Day = 1440)
 $uvs_1d2u_quota      =   2; // 1 = One time, 2 = Multi use
@@ -52,7 +52,7 @@ $uvs_1d2u_limit      =   null; // Byte Quota per use in MB (null=unlimited)
 $uvs_1d2u_count      =   5; // How many vouchers - WARNING: Currently we can send just 1 voucher to the printer, so keep it for now.
 
 /* 7 dagen 1 gebruiker */
-$uvs_7d1u_site_id    =   'default'; // The site where you want to create the voucher
+$uvs_7d1u_site_id    =   'ddl21h5j'; // The site where you want to create the voucher
 $uvs_7d1u_note       =   ''; // Note on the voucher
 $uvs_7d1u_expiration =   10080; // Expiration Time (1 Week = 10080)
 $uvs_7d1u_quota      =   1; // 1 = One time, 2 = Multi use
@@ -62,7 +62,7 @@ $uvs_7d1u_limit      =   null; // Byte Quota per use in MB (null=unlimited)
 $uvs_7d1u_count      =   1; // How many vouchers - WARNING: Currently we can send just 1 voucher to the printer, so keep it for now.
 
 /* 7 dagen 5 gebruikers */
-$uvs_7d2u_site_id    =   'default'; // The site where you want to create the voucher
+$uvs_7d2u_site_id    =   'ddl21h5j'; // The site where you want to create the voucher
 $uvs_7d2u_note       =   ''; // Note on the voucher
 $uvs_7d2u_expiration =   10080; // Expiration Time (1 Week = 10080)
 $uvs_7d2u_quota      =   2; // 1 = One time, 2 = Multi use
@@ -72,7 +72,7 @@ $uvs_7d2u_limit      =   null; // Byte Quota per use in MB (null=unlimited)
 $uvs_7d2u_count      =   5; // How many vouchers - WARNING: Currently we can send just 1 voucher to the printer, so keep it for now.
 
 /* NOT USED */
-$uvs_31d1u_site_id    =   'default'; // The site where you want to create the voucher
+$uvs_31d1u_site_id    =   'ddl21h5j'; // The site where you want to create the voucher
 $uvs_31d1u_note       =   ''; // Note on the voucher
 $uvs_31d1u_expiration =   44640; // Expiration Time (1 Month = 44640)
 $uvs_31d1u_quota      =   1; // 1 = One time, 2 = Multi use
@@ -82,7 +82,7 @@ $uvs_31d1u_limit      =   null; // Byte Quota per use in MB (null=unlimited)
 $uvs_31d1u_count      =   1; // How many vouchers - WARNING: Currently we can send just 1 voucher to the printer, so keep it for now.
 
 /* 31 dagen 5 gebruikers */
-$uvs_31d2u_site_id    =   'default'; // The site where you want to create the voucher
+$uvs_31d2u_site_id    =   'ddl21h5j'; // The site where you want to create the voucher
 $uvs_31d2u_note       =   ''; // Note on the voucher
 $uvs_31d2u_expiration =   44640; // Expiration Time (1 Month = 44640)
 $uvs_31d2u_quota      =   2; // 1 = One time, 2 = Multi use
