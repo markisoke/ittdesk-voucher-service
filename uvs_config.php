@@ -24,11 +24,11 @@ $uvs_downrate       =   'Kbps';
 $uvs_wifissid       =   'SSID:';
 
 /* Optional changes */
-$uvs_folder         =   'unifi-voucher-service'; // If you want to rename your folder
+$uvs_folder         =   'ittdesk-voucher-service'; // If you want to rename your folder
 $uvs_printer        =   'QL-700'; // For more information about supported printers visit: https://pypi.org/project/brother_ql/
 $uvs_labelsize      =   '62x29'; // For more information about supported labels visit: https://pypi.org/project/brother_ql/
 $uvs_usbid          =   '04f9:2042'; // Remember your printer ID. To identify your printer at your usb-port type lsusb, as mention in step 5.
-$uvs_vlan           =   '10'; // The VLAN ID of your guest network. (UniFi Controller - Settings - Wireless Networks)
+$uvs_vlan           =   ''; // The VLAN ID of your guest network. (UniFi Controller - Settings - Wireless Networks)
 
 
 /* 1 dag 1 gebruiker */
