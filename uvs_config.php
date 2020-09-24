@@ -75,7 +75,7 @@ $uvs_7d2u_count      =   1; // How many vouchers - WARNING: Currently we can sen
 $uvs_31d1u_site_id    =   'ddl21h5j'; // The site where you want to create the voucher
 $uvs_31d1u_note       =   ''; // Note on the voucher
 $uvs_31d1u_expiration =   44640; // Expiration Time (1 Month = 44640)
-$uvs_31d1u_quota      =   1; // 1 = One time, 2 = Multi use
+$uvs_31d1u_quota      =   5; // 1 = One time, 2 = Multi use
 $uvs_31d1u_up         =   5000; // Bandwidth Limit Upload in kbits
 $uvs_31d1u_down       =   10000; // Bandwidth Limit Download in kbits
 $uvs_31d1u_limit      =   null; // Byte Quota per use in MB (null=unlimited)
